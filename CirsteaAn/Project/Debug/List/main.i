@@ -48,6 +48,25 @@ int average_function(int a, int b){
 }
 
 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+struct student{
+  char name = ['A', 'N', 'D', 'R', 'E', 'I'];
+  unsigned char age = 25;
+  unsigned char height  =165;
+};
+
 int main( void ){
   a = 1; 
   b = 3; 

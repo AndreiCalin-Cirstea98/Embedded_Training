@@ -168,13 +168,71 @@
     "scope": null
   },
   {
+    "ID": "c:@S@student",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "student",
+    "location": {
+      "column": "8",
+      "line": "73",
+      "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
+    },
+    "members": [
+      {
+        "ID": "c:@S@student@FI@name",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "name",
+        "location": {
+          "column": "8",
+          "line": "74",
+          "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
+        },
+        "name": "name",
+        "origin": "project_file",
+        "scope": "student"
+      },
+      {
+        "ID": "c:@S@student@FI@age",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "age",
+        "location": {
+          "column": "17",
+          "line": "75",
+          "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
+        },
+        "name": "age",
+        "origin": "project_file",
+        "scope": "student"
+      },
+      {
+        "ID": "c:@S@student@FI@height",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "height",
+        "location": {
+          "column": "17",
+          "line": "76",
+          "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
+        },
+        "name": "height",
+        "origin": "project_file",
+        "scope": "student"
+      }
+    ],
+    "name": "student",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "72",
+      "line": "80",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "main",
@@ -182,13 +240,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1828@macro@VAR",
+    "ID": "c:main.c@1980@macro@VAR",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "VAR",
     "location": {
       "column": "11",
-      "line": "80",
+      "line": "88",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "VAR",
@@ -196,13 +254,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1868@F@main@d",
+    "ID": "c:main.c@2020@F@main@d",
     "What": "Variable",
     "defdec": "Def",
     "display": "d",
     "location": {
       "column": "7",
-      "line": "83",
+      "line": "91",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "d",

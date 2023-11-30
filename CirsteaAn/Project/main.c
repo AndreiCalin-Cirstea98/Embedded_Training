@@ -69,6 +69,14 @@ hardware that is external to the computer.
 */
 //ex7 end
 
+//ex8 start
+struct student{
+  char name = ['A', 'N', 'D', 'R', 'E', 'I'];
+  unsigned char age = 25;
+  unsigned char height  =165;
+};
+//ex8 end
+
 int main( void ){
   a = 1; //attribute a value to variable "a"
   b = 3; //attribute a value to variable "b"
