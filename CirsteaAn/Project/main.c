@@ -17,6 +17,13 @@ void ex3(void){
   x = MAX;
 }               //ex3 end
 
+#define MAX 100 //ex4 start
+
+/*void ex4(void){
+  int MAX = 10;
+}               //ex4 end
+*/
+
 int main( void ){
   a = 1; //attribute a value to variable "a"
   b = 3; //attribute a value to variable "b"

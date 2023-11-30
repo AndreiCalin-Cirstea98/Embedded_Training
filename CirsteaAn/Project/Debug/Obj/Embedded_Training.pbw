@@ -70,13 +70,83 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@268@macro@MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MAX",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
+    },
+    "name": "MAX",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ex3",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ex3(void)",
+    "location": {
+      "column": "6",
+      "line": "14",
+      "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
+    },
+    "name": "ex3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@309@F@ex3@x",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "x",
+    "location": {
+      "column": "7",
+      "line": "15",
+      "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
+    },
+    "name": "x",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@331@macro@MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MAX",
+    "location": {
+      "column": "11",
+      "line": "16",
+      "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
+    },
+    "name": "MAX",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@388@macro@MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MAX",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
+    },
+    "name": "MAX",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "12",
+      "line": "27",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "main",
@@ -84,13 +154,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@526@macro@VAR",
+    "ID": "c:main.c@758@macro@VAR",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "VAR",
     "location": {
       "column": "11",
-      "line": "20",
+      "line": "35",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "VAR",
@@ -98,13 +168,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@549@F@main@d",
+    "ID": "c:main.c@798@F@main@d",
     "What": "Variable",
     "defdec": "Def",
     "display": "d",
     "location": {
       "column": "7",
-      "line": "23",
+      "line": "38",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "d",

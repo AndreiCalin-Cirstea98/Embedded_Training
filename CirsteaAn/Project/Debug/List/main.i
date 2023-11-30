@@ -13,7 +13,13 @@ int function_sum(int x, int y){
 void ex3(void){
   int x = 2;
   x = 55;
-}
+}               
+
+
+
+
+
+ 
 
 int main( void ){
   a = 1; 
