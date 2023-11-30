@@ -2,24 +2,25 @@
 #                                                                              #
 #      IAR Universal Linker V6.6.1.103                                         #
 #                                                                              #
-#           Link time     =  29/Nov/2023  13:26:38                             #
+#           Link time     =  30/Nov/2023  15:56:06                             #
 #           Target CPU    =  A90                                               #
-#           List file     =  C:\Embedded_Training\Project\Debug\List\Embedded_ #
-#                            Training.map                                      #
-#           Output file 1 =  C:\Embedded_Training\Project\Debug\Exe\Embedded_T #
-#                            raining.d90                                       #
+#           List file     =  D:\Embedded_Training\CirsteaAn\Project\Debug\List #
+#                            \Embedded_Training.map                            #
+#           Output file 1 =  D:\Embedded_Training\CirsteaAn\Project\Debug\Exe\ #
+#                            Embedded_Training.d90                             #
 #                            Format: ubrof10                                   #
 #                            UBROF version 10.0.6                              #
 #                            Using library modules for C-SPY (-rt)             #
 #           Command line  =  -f                                                #
-#                            C:\Users\Andrei\AppData\Local\Temp\EW53BD.tmp     #
-#                            (C:\Embedded_Training\Project\Debug\Obj\main.r90  #
+#                            C:\Users\Andrei\AppData\Local\Temp\EW88BA.tmp     #
+#                            (D:\Embedded_Training\CirsteaAn\Project\Debug\Obj #
+#                            \main.r90                                         #
 #                            -o                                                #
-#                            C:\Embedded_Training\Project\Debug\Exe\Embedded_T #
-#                            raining.d90                                       #
+#                            D:\Embedded_Training\CirsteaAn\Project\Debug\Exe\ #
+#                            Embedded_Training.d90                             #
 #                            -l                                                #
-#                            C:\Embedded_Training\Project\Debug\List\Embedded_ #
-#                            Training.map                                      #
+#                            D:\Embedded_Training\CirsteaAn\Project\Debug\List #
+#                            \Embedded_Training.map                            #
 #                            -xms                                              #
 #                            "-IC:\Program Files (x86)\IAR Systems\Embedded Wo #
 #                            rkbench 8.4\avr\LIB\\"                            #
@@ -182,7 +183,7 @@ Absolute parts
            _..X_INTVEC_SIZE        000000CC 
     *************************************************************************
 
-  FILE NAME : C:\Embedded_Training\Project\Debug\Obj\main.r90
+  FILE NAME : D:\Embedded_Training\CirsteaAn\Project\Debug\Obj\main.r90
   PROGRAM MODULE, NAME : main
 
   SEGMENTS IN THE MODULE

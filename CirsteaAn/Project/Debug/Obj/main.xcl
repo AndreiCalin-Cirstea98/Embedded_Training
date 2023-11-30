@@ -1,15 +1,15 @@
-"C:\Embedded_Training\Project\main.c"
+"D:\Embedded_Training\CirsteaAn\Project\main.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Embedded_Training\Project\Debug\Obj\main.pbi.dep
+D:\Embedded_Training\CirsteaAn\Project\Debug\Obj\main.pbi.dep
 -o
 main.pbi
 -I
-C:\Embedded_Training\Project
+D:\Embedded_Training\CirsteaAn\Project
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\avr\inc
 -I
