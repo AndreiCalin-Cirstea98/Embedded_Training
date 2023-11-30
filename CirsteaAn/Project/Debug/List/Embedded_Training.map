@@ -2,7 +2,7 @@
 #                                                                              #
 #      IAR Universal Linker V6.6.1.103                                         #
 #                                                                              #
-#           Link time     =  30/Nov/2023  15:56:06                             #
+#           Link time     =  30/Nov/2023  19:40:35                             #
 #           Target CPU    =  A90                                               #
 #           List file     =  D:\Embedded_Training\CirsteaAn\Project\Debug\List #
 #                            \Embedded_Training.map                            #
@@ -11,8 +11,7 @@
 #                            Format: ubrof10                                   #
 #                            UBROF version 10.0.6                              #
 #                            Using library modules for C-SPY (-rt)             #
-#           Command line  =  -f                                                #
-#                            C:\Users\Andrei\AppData\Local\Temp\EW88BA.tmp     #
+#           Command line  =  -f C:\Users\Andrei\AppData\Local\Temp\EWD8E.tmp   #
 #                            (D:\Embedded_Training\CirsteaAn\Project\Debug\Obj #
 #                            \main.r90                                         #
 #                            -o                                                #
@@ -97,7 +96,7 @@
                 *                                      *
                 ****************************************
 
-       Program entry at : CODE      0000012C  Relocatable, from module : ?C_STARTUP
+       Program entry at : CODE      00000130  Relocatable, from module : ?C_STARTUP
 
 
 
@@ -217,7 +216,7 @@ CODE
            function_sum            000000CC 
     -------------------------------------------------------------------------
 CODE
-  Relative segment, address: CODE 000000D8 - 0000010F (0x38 bytes), align: 1
+  Relative segment, address: CODE 000000D8 - 00000113 (0x3c bytes), align: 1
   Segment part 12.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
@@ -253,14 +252,14 @@ ABSOLUTE
            __?EEARH                00000022 
     -------------------------------------------------------------------------
 INITTAB
-  Relative segment, address: CODE 000001A4 - 000001A9 (0x6 bytes), align: 0
+  Relative segment, address: CODE 000001A8 - 000001AD (0x6 bytes), align: 0
   Segment part 8.             Intra module refs:   a
                                                    b
                                                    c
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            ?<Segment init: NEAR_Z>
-                                   000001A4 
+                                   000001A8 
 
     *************************************************************************
 
@@ -270,11 +269,11 @@ INITTAB
   SEGMENTS IN THE MODULE
   ======================
 CODE
-  Relative segment, address: CODE 00000110 - 00000111 (0x2 bytes), align: 1
+  Relative segment, address: CODE 00000114 - 00000115 (0x2 bytes), align: 1
   Segment part 3.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __DebugBreak            00000110        __exit (?__exit)
+           __DebugBreak            00000114        __exit (?__exit)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?__exit
@@ -282,11 +281,11 @@ CODE
   SEGMENTS IN THE MODULE
   ======================
 CODE
-  Relative segment, address: CODE 00000112 - 00000127 (0x16 bytes), align: 1
+  Relative segment, address: CODE 00000116 - 0000012B (0x16 bytes), align: 1
   Segment part 3.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __exit                  00000112        Segment part 5 (?_exit)
+           __exit                  00000116        Segment part 5 (?_exit)
                calls direct
 
     -------------------------------------------------------------------------
@@ -295,15 +294,15 @@ CODE
   SEGMENTS IN THE MODULE
   ======================
 CODE
-  Relative segment, address: CODE 00000128, align: 1
+  Relative segment, address: CODE 0000012C, align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           _exit                   00000128        ?cstartup_call_main (?C_STARTUP)
+           _exit                   0000012C        ?cstartup_call_main (?C_STARTUP)
                                                    exit (?exit)
     -------------------------------------------------------------------------
 CODE
-  Relative segment, address: CODE 00000128 - 0000012B (0x4 bytes), align: 1
+  Relative segment, address: CODE 0000012C - 0000012F (0x4 bytes), align: 1
   Segment part 5.             Intra module refs:   _exit
 
     -------------------------------------------------------------------------
@@ -324,54 +323,41 @@ INTVEC
   SEGMENTS IN THE MODULE
   ======================
 CODE
-  Relative segment, address: CODE 0000012C, align: 1
+  Relative segment, address: CODE 00000130, align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __program_start         0000012C        Absolute parts (?ABS_ENTRY_MOD)
-           ?C_STARTUP              0000012C        ?RESET (?RESET)
-           __RESTART               0000012C 
+           __program_start         00000130        Absolute parts (?ABS_ENTRY_MOD)
+           ?C_STARTUP              00000130        ?RESET (?RESET)
+           __RESTART               00000130 
     -------------------------------------------------------------------------
 CODE
-  Relative segment, address: CODE 0000012C - 00000137 (0xc bytes), align: 1
+  Relative segment, address: CODE 00000130 - 0000013B (0xc bytes), align: 1
   Segment part 5.             Intra module refs:   Segment part 2
     -------------------------------------------------------------------------
 CODE
-  Relative segment, address: CODE 00000138 - 0000013B (0x4 bytes), align: 1
+  Relative segment, address: CODE 0000013C - 0000013F (0x4 bytes), align: 1
   Segment part 7.             Intra module refs:   Segment part 5
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?call_low_level_init    00000138 
+           ?call_low_level_init    0000013C 
     -------------------------------------------------------------------------
 CODE
-  Relative segment, address: CODE 0000013C - 00000143 (0x8 bytes), align: 1
+  Relative segment, address: CODE 00000140 - 00000147 (0x8 bytes), align: 1
   Segment part 8.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?need_segment_init      0000013C        ?<Segment init: NEAR_Z> (main)
+           ?need_segment_init      00000140        ?<Segment init: NEAR_Z> (main)
     -------------------------------------------------------------------------
 CODE
-  Relative segment, address: CODE 00000144 - 0000014F (0xc bytes), align: 1
+  Relative segment, address: CODE 00000148 - 00000153 (0xc bytes), align: 1
   Segment part 11.            Intra module refs:   ?call_low_level_init
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?cstartup_call_main     00000144 
+           ?cstartup_call_main     00000148 
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?exit
-
-  SEGMENTS IN THE MODULE
-  ======================
-CODE
-  Relative segment, address: CODE 00000150 - 00000153 (0x4 bytes), align: 1
-  Segment part 3.
-           ENTRY                   ADDRESS         REF BY
-           =====                   =======         ======
-           exit                    00000150        ?cstartup_call_main (?C_STARTUP)
-               calls direct
-
-    -------------------------------------------------------------------------
-  LIBRARY MODULE, NAME : ?low_level_init
 
   SEGMENTS IN THE MODULE
   ======================
@@ -380,7 +366,20 @@ CODE
   Segment part 3.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __low_level_init        00000154        ?call_low_level_init (?C_STARTUP)
+           exit                    00000154        ?cstartup_call_main (?C_STARTUP)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?low_level_init
+
+  SEGMENTS IN THE MODULE
+  ======================
+CODE
+  Relative segment, address: CODE 00000158 - 0000015B (0x4 bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __low_level_init        00000158        ?call_low_level_init (?C_STARTUP)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?segment_init
@@ -388,25 +387,25 @@ CODE
   SEGMENTS IN THE MODULE
   ======================
 CODE
-  Relative segment, address: CODE 00000158 - 00000163 (0xc bytes), align: 1
+  Relative segment, address: CODE 0000015C - 00000167 (0xc bytes), align: 1
   Segment part 3.             Intra module refs:   __segment_init
            LOCAL                   ADDRESS         
            =====                   =======         
-           __memclr                00000158 
+           __memclr                0000015C 
     -------------------------------------------------------------------------
 CODE
-  Relative segment, address: CODE 00000164 - 0000016F (0xc bytes), align: 1
+  Relative segment, address: CODE 00000168 - 00000173 (0xc bytes), align: 1
   Segment part 4.             Intra module refs:   __segment_init
            LOCAL                   ADDRESS         
            =====                   =======         
-           __flashcpy              00000164 
+           __flashcpy              00000168 
     -------------------------------------------------------------------------
 CODE
-  Relative segment, address: CODE 00000170 - 000001A3 (0x34 bytes), align: 1
+  Relative segment, address: CODE 00000174 - 000001A7 (0x34 bytes), align: 1
   Segment part 5.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __segment_init          00000170        ?need_segment_init (?C_STARTUP)
+           __segment_init          00000174        ?need_segment_init (?C_STARTUP)
                calls direct
 
     *************************************************************************
@@ -438,8 +437,8 @@ SEGMENT              SPACE    START ADDRESS   END ADDRESS     SIZE  TYPE  ALIGN
 =======              =====    =============   ===========     ====  ====  =====
 INTVEC               CODE          00000000 - 00000003           4   com    1
 ?FILL1               CODE          00000004 - 000000CB          C8   rel    0
-CODE                 CODE          000000CC - 000001A3          D8   rel    1
-INITTAB              CODE          000001A4 - 000001A9           6   rel    0
+CODE                 CODE          000000CC - 000001A7          DC   rel    1
+INITTAB              CODE          000001A8 - 000001AD           6   rel    0
 ABSOLUTE             DATA               0000001F                     rel    0
                      DATA               00000020                   
                      DATA               00000021                   
@@ -455,7 +454,7 @@ NEAR_Z               DATA          00000140 - 00000145           6   rel    0
                 *                                      *
                 ****************************************
 
- 226 bytes of CODE memory (+ 200 range fill )
+ 230 bytes of CODE memory (+ 200 range fill )
   70 bytes of DATA memory
 
 Errors: none

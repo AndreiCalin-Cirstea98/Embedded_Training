@@ -5,6 +5,7 @@
     <configuration>
         <name>Debug</name>
         <outputs>
+            <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\Debug\List\main.i</file>
             <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
             <file>$PROJ_DIR$\Debug\List\Embedded_Training.map</file>
@@ -12,17 +13,33 @@
             <file>$TOOLKIT_DIR$\src\template\cfgm324pb.xcl</file>
             <file>$PROJ_DIR$\Debug\Exe\Embedded_Training.d90</file>
             <file>$PROJ_DIR$\Debug\Obj\Embedded_Training.pbd</file>
-            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
             <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-3s-ec_mul-sf-n.r90</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 5 2</file>
+                    <file> 6 3</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCAVR</name>
+                    <file> 1 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 8</file>
                 </tool>
             </outputs>
         </file>
@@ -31,32 +48,15 @@
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 2</file>
+                    <file> 3</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 4 3 1 9</file>
+                    <file> 5 4 2 10</file>
                 </tool>
             </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCAVR</name>
-                    <file> 0 1</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 8</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 10</file>
-                </tool>
-            </outputs>
         </file>
     </configuration>
     <configuration>

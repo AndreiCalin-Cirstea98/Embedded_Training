@@ -14,5 +14,8 @@ int main( void ){
   b = 3; 
   c = function_sum(a,b); 
   
+  
+  int d = 5;
+  
   return 0;
 }

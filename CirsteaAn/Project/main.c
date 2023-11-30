@@ -14,5 +14,13 @@ int main( void ){
   b = 3; //attribute a value to variable "b"
   c = function_sum(a,b); //variable "c" will store the result of the sum of variables "a" and "b"
   
+  #if MAX == 1
+  #define VAR 4
+  #else
+  #define VAR 5
+  #endif
+  
+  int d = VAR;
+  
   return 0;
 }

@@ -82,5 +82,33 @@
     "name": "main",
     "origin": "project_file",
     "scope": null
+  },
+  {
+    "ID": "c:main.c@526@macro@VAR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "VAR",
+    "location": {
+      "column": "11",
+      "line": "20",
+      "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
+    },
+    "name": "VAR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@549@F@main@d",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "d",
+    "location": {
+      "column": "7",
+      "line": "23",
+      "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
+    },
+    "name": "d",
+    "origin": "project_file",
+    "scope": null
   }
 ]
