@@ -21,6 +21,14 @@ void ex3(void){
 
  
 
+
+
+
+
+
+
+ 
+
 int main( void ){
   a = 1; 
   b = 3; 

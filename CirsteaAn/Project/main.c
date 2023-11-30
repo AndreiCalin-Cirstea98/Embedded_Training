@@ -24,6 +24,19 @@ void ex3(void){
 }               //ex4 end
 */
 
+/*#define MAX(i,limit)do\ //ex5 start //did not work
+{\
+  if(i<limit)\
+    {\
+      i++;\
+    }\
+}while(1)
+
+void ex5(void){
+  MAX(0,3);
+}                       //ex5 end
+*/
+
 int main( void ){
   a = 1; //attribute a value to variable "a"
   b = 3; //attribute a value to variable "b"

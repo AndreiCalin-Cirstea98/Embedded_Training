@@ -146,7 +146,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "27",
+      "line": "40",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "main",
@@ -154,13 +154,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@758@macro@VAR",
+    "ID": "c:main.c@945@macro@VAR",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "VAR",
     "location": {
       "column": "11",
-      "line": "35",
+      "line": "48",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "VAR",
@@ -168,13 +168,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@798@F@main@d",
+    "ID": "c:main.c@985@F@main@d",
     "What": "Variable",
     "defdec": "Def",
     "display": "d",
     "location": {
       "column": "7",
-      "line": "38",
+      "line": "51",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "d",

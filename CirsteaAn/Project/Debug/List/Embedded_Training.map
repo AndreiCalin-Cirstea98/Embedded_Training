@@ -2,7 +2,7 @@
 #                                                                              #
 #      IAR Universal Linker V6.6.1.103                                         #
 #                                                                              #
-#           Link time     =  30/Nov/2023  19:49:52                             #
+#           Link time     =  30/Nov/2023  19:59:13                             #
 #           Target CPU    =  A90                                               #
 #           List file     =  D:\Embedded_Training\CirsteaAn\Project\Debug\List #
 #                            \Embedded_Training.map                            #
@@ -12,7 +12,7 @@
 #                            UBROF version 10.0.6                              #
 #                            Using library modules for C-SPY (-rt)             #
 #           Command line  =  -f                                                #
-#                            C:\Users\Andrei\AppData\Local\Temp\EW8C39.tmp     #
+#                            C:\Users\Andrei\AppData\Local\Temp\EW1A61.tmp     #
 #                            (D:\Embedded_Training\CirsteaAn\Project\Debug\Obj #
 #                            \main.r90                                         #
 #                            -o                                                #
