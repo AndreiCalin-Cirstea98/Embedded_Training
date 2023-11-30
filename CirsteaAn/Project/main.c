@@ -57,6 +57,18 @@ int average_function(int a, int b){
 }
 //ex6 end
 
+//ex7 start
+/* The static keyword in c is used to specify that a variable or a function has static storage duration.
+ A variable declared as static inside a function retains its value even after the function has returned,
+which means the variable remains in memory throughout the life of the program. 
+A static function is a function that can only be called from within the same file that it is defined in.
+
+he volatile keyword in C is used to indicate to the compiler that a variable’s value may change unexpectedly.
+This is often the case when a variable is being accessed by multiple threads or when it represents 
+hardware that is external to the computer. 
+*/
+//ex7 end
+
 int main( void ){
   a = 1; //attribute a value to variable "a"
   b = 3; //attribute a value to variable "b"
