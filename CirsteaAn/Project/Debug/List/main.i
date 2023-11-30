@@ -9,6 +9,12 @@ int function_sum(int x, int y){
   return sum;
 }
 
+
+void ex3(void){
+  int x = 2;
+  x = 55;
+}
+
 int main( void ){
   a = 1; 
   b = 3; 
