@@ -9,22 +9,27 @@ int function_sum(int x, int y){ //define the function that returns the sum of tw
   return sum;
 }
 
-#define MAX 10 //ex3 start
+//ex3 start
+#define MAX 10 
 
 void ex3(void){
   int x = 2;
   #define MAX 55
   x = MAX;
-}               //ex3 end
+}   
+//ex3 end
 
-#define MAX 100 //ex4 start
+//ex4 start
+#define MAX 100 
 
 /*void ex4(void){
   int MAX = 10;
-}               //ex4 end
+}               
 */
+//ex4 end
 
-/*#define MAX(i,limit)do\ //ex5 start //did not work
+ //ex5 start //did not work
+/*#define MAX(i,limit)do\
 {\
   if(i<limit)\
     {\
@@ -34,8 +39,23 @@ void ex3(void){
 
 void ex5(void){
   MAX(0,3);
-}                       //ex5 end
+}                      
 */
+ //ex5 end
+
+//ex6 start
+int max_function(int a, int b){
+  if(a > b){
+    return a;
+  } else if (b >= a){
+    return b;
+  }
+}
+
+int average_function(int a, int b){
+  return (a+b)/2;
+}
+//ex6 end
 
 int main( void ){
   a = 1; //attribute a value to variable "a"

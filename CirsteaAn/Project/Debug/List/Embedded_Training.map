@@ -2,7 +2,7 @@
 #                                                                              #
 #      IAR Universal Linker V6.6.1.103                                         #
 #                                                                              #
-#           Link time     =  30/Nov/2023  19:59:13                             #
+#           Link time     =  30/Nov/2023  20:14:49                             #
 #           Target CPU    =  A90                                               #
 #           List file     =  D:\Embedded_Training\CirsteaAn\Project\Debug\List #
 #                            \Embedded_Training.map                            #
@@ -12,7 +12,7 @@
 #                            UBROF version 10.0.6                              #
 #                            Using library modules for C-SPY (-rt)             #
 #           Command line  =  -f                                                #
-#                            C:\Users\Andrei\AppData\Local\Temp\EW1A61.tmp     #
+#                            C:\Users\Andrei\AppData\Local\Temp\EW6366.tmp     #
 #                            (D:\Embedded_Training\CirsteaAn\Project\Debug\Obj #
 #                            \main.r90                                         #
 #                            -o                                                #
@@ -218,7 +218,7 @@ CODE
     -------------------------------------------------------------------------
 CODE
   Relative segment, address: CODE 000000D8 - 00000113 (0x3c bytes), align: 1
-  Segment part 13.
+  Segment part 15.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            main                    000000D8        ?cstartup_call_main (?C_STARTUP)

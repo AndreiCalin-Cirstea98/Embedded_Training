@@ -70,13 +70,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@268@macro@MAX",
+    "ID": "c:main.c@281@macro@MAX",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "MAX",
     "location": {
       "column": "9",
-      "line": "12",
+      "line": "13",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "MAX",
@@ -90,7 +90,7 @@
     "display": "void ex3(void)",
     "location": {
       "column": "6",
-      "line": "14",
+      "line": "15",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "ex3",
@@ -98,13 +98,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@309@F@ex3@x",
+    "ID": "c:main.c@311@F@ex3@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "7",
-      "line": "15",
+      "line": "16",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "x",
@@ -112,13 +112,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@331@macro@MAX",
+    "ID": "c:main.c@333@macro@MAX",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "MAX",
     "location": {
       "column": "11",
-      "line": "16",
+      "line": "17",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "MAX",
@@ -126,16 +126,44 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@388@macro@MAX",
+    "ID": "c:main.c@393@macro@MAX",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "MAX",
     "location": {
       "column": "9",
-      "line": "20",
+      "line": "23",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "MAX",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@max_function",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int max_function(int, int)",
+    "location": {
+      "column": "5",
+      "line": "47",
+      "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
+    },
+    "name": "max_function",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@average_function",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int average_function(int, int)",
+    "location": {
+      "column": "5",
+      "line": "55",
+      "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
+    },
+    "name": "average_function",
     "origin": "project_file",
     "scope": null
   },
@@ -146,7 +174,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "40",
+      "line": "60",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "main",
@@ -154,13 +182,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@945@macro@VAR",
+    "ID": "c:main.c@1140@macro@VAR",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "VAR",
     "location": {
       "column": "11",
-      "line": "48",
+      "line": "68",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "VAR",
@@ -168,13 +196,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@985@F@main@d",
+    "ID": "c:main.c@1180@F@main@d",
     "What": "Variable",
     "defdec": "Def",
     "display": "d",
     "location": {
       "column": "7",
-      "line": "51",
+      "line": "71",
       "path": "D:\\Embedded_Training\\CirsteaAn\\Project\\main.c"
     },
     "name": "d",
